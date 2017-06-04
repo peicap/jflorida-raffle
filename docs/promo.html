@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Raffle Promo</title>
+	<link rel="stylesheet" href="css/materialize.css">
+</head>
+<body class="purple">	
+	<div class="container white-text">
+		<div class="row">
+			<div class="col s12 center-align">
+				<h5 class="javacom white-text">Jflorida Authentic <br>Bags And Designs</h5>
+			</div>
+			<div class="col s12 center-align">
+				<h5 id="winnerTxt">The winner is...</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<h5 class="center-align">ENTRIES: <span id="entries"></span></h5>
+			</div>
+			<div class="col s12 center-align">
+				<a onclick="raffle()" class="red btn waves-effect waves-light">Raffle!</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<div id="display" class="collection center-align	">
+					
+				</div>
+			</div>
+		</div>
+	</div> <!-- container -->
+</body>
+<script src='js/jquery.min.js'></script>
+<script src='js/materialize.min.js'></script>
+<script src='js/pouchdb-6.2.0.min.js'></script>
+<script src='js/promo.js'></script>
+</html>
