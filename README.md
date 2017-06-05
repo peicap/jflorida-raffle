@@ -5,7 +5,7 @@ A web-app used to generate raffle winners for Jflorida Authentic Bag &amp; Desig
 
 ## CHANGELOG
 _1.1 6/4/2017_
-+ Added Material Design Lite
++ Added Skeleton Css
 _1.0v 5/11/2017_
 + Added Pouch-DB for saving user entries
 + Added Materialize-Css
