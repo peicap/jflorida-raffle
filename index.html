@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>peicap: raffle-plus</title>
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body><nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="/" class="navbar-brand">pouch-db raffle-plus</a>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-4">
+				<h3>New Entry</h3>
+				<div class="input-group">
+				  <input id="new-entry-value" type="text" class="form-control disabled" placeholder="Pei Capili" aria-describedby="basic-addon1">
+					<span class="input-group-addon" id="basic-addon">
+						<a  href="#" id="new-entry" class="text-primary">
+							<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+						</a>
+					</span>
+				</div>
+				<h4 id="winner">Pick a winner!</h4>
+				<input id="new-winner" class="btn btn-default" type="submit" value="Submit">
+				<h3 id='win-win'></h3>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<h3>Entries</h3>
+				<ul id="list-group-entries" class="list-group"></ul>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="jquery-v3.2.1.js"></script>
+<script src="dist/pouchdb-6.2.0.min.js"></script>
+<script src="dist/pouchdb-find.min.js"></script>
+<script src="app.js"></script>
+<script src="css/bootstrap/js/bootstrap.min.js"></script>
+</html>
